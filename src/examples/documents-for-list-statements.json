@@ -1,0 +1,7 @@
+{
+  "operator": "OR",
+  "searchIndexes": {
+    "DocumentDate" : "09/28/19",
+    "DocumentApplicationType": "02"
+  }
+}
