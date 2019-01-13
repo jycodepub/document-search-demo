@@ -11,7 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class SearchHit {
-    private String _id;
+    private String documentId;
     private int totalPages;
     @JsonProperty("documentIndexes")
     private List<String[]> indexes;
