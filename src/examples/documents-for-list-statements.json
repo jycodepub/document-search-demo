@@ -1,7 +1,7 @@
 {
   "operator": "OR",
   "searchIndexes": {
-    "DocumentDate" : "09/28/19",
-    "DocumentApplicationType": "02"
+    "CustomerName": "SUNRISE CLEANING INC",
+    "StatementNumber" : "00017000068"
   }
 }
