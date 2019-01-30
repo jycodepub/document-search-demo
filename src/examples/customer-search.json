@@ -1,0 +1,6 @@
+{
+  "searchIndexes": [
+    { "name": "indexes.customerName", "values": ["customer1"], "operator": "eq" },
+    { "name": "indexes.tinNumber", "values": ["1001"], "operator": "eq" }
+  ]
+}

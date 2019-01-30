@@ -1,0 +1,5 @@
+{
+  "searchIndexes": [
+    { "name": "totalPages", "values": ["2"], "operator": "ne" }
+  ]
+}

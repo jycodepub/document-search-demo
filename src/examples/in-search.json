@@ -1,0 +1,5 @@
+{
+  "searchIndexes": [
+    { "name": "indexes.statementNumber", "values": ["101", "102", "103"], "operator": "in"}
+  ]
+}

@@ -1,18 +1,21 @@
-package com.fiserv.dda.archive.documentsearchdemo;
+package com.fiserv.dda.archive.documentsearchdemo.api.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
+import java.util.Map;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class SearchHit {
     private String documentId;
-    private int totalPages;
+    private String externalId;
+    private String totalPages;
     @JsonProperty("documentIndexes")
-    private List<String[]> indexes;
+    private Map<String, String> indexes;
 }
